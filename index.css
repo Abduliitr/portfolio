@@ -1,0 +1,84 @@
+/* CSS : Styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+/* 
+. represents class 
+# represents id
+*/
+
+.main-page{
+    padding: 20px;
+    background-color: rgb(3, 38, 60);
+    /* color: brown; */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;     /* Horizontally align*/
+    color: white;
+}
+
+.profile{
+    display: flex;
+    align-items: center;                /* Veritically align */
+    /* margin: 20px; */
+    font-size: 20px;
+}
+
+.profile p, img{
+    margin: 5px;
+    font-weight: bold;
+}
+
+.profile-img{
+    border-radius: 50%;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.resume-btn{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid orange;
+    border-radius: 10%;
+}
+
+.nav-list > li{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-left{
+    width: 50%;
+    padding: 100px;
+}
+.main-left h1, h2{
+    color: white
+}
+.main-left p{
+    color: antiquewhite;
+}
+.main-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-right img{
+    width: 60%;
+    border-radius: 50%;
+}
