@@ -13,7 +13,7 @@ body {
 
 .main-page{
     padding: 20px;
-    background-color: rgb(3, 38, 60);
+    background-color: rgb(9, 42, 62);
     /* color: brown; */
 }
 
@@ -79,6 +79,100 @@ body {
 }
 
 .main-right img{
-    width: 60%;
+    width: 50%;
     border-radius: 50%;
 }
+
+.skills, .series, .projects{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(248, 233, 205), rgb(203, 203, 247));
+    /* background-image: linear-gradient(to right, #ebe288, #aae9ab, #80e5d7, #89daf1, #b0cbee); */
+}
+
+.contact{
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(9, 42, 62);
+    color: white;
+    padding-bottom: 50px;
+}
+
+.email-contact{
+    margin: 30px;
+}
+
+.email-contact a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid orange;
+    margin: 20px;
+    padding:15px;
+    border-radius: 10px;
+}
+
+.skills-info, .series-info{
+    font-size: 22px;
+}
+
+.skills-card-container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    padding: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(206, 204, 204);
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.skills-card-container div{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-theme{
+    color: rgb(245, 142, 23);
+}
+
+.series-btn{
+    color: white;
+    background-color: rgb(245, 142, 23);
+    font-size: 20px;
+    font-family: Poppins;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.series-videos{
+    display: flex;
+    justify-content: center;
+}
+
+.series-videos div iframe{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.series-videos div{
+    width: 25%;
+    height: 30vh;
+    margin: 20px;
+}
+
+/* .series{
+
+} */
